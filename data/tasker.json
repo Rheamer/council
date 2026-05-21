@@ -1,0 +1,137 @@
+{
+  "tasks": [
+    {
+      "task_id": "t_001",
+      "title": "Build a portfolio-worthy full-stack project",
+      "status": "in_progress",
+      "due_date": "2024-08-15",
+      "description": "Ship one polished, deployed project to show employers. Currently mid-build on a Django + React expense tracker; considering pivoting to an automotive parts/inventory tool that leans on my domain knowledge.",
+      "notes": "Raj's advice: shipping a real project matters more than certificates.",
+      "subtasks": [
+        {"subtask_id": "s_001", "title": "Finish backend API (Django REST)", "status": "in_progress", "due_date": "2024-07-20"},
+        {"subtask_id": "s_002", "title": "Build React front end for the tracker", "status": "not_started", "due_date": "2024-08-01"},
+        {"subtask_id": "s_003", "title": "Deploy to a real host (Render/Fly)", "status": "not_started", "due_date": "2024-08-10"},
+        {"subtask_id": "s_004", "title": "Write a README + short demo video", "status": "not_started", "due_date": "2024-08-14"}
+      ]
+    },
+    {
+      "task_id": "t_002",
+      "title": "Decide between bootcamp, self-study, or staying put",
+      "status": "in_progress",
+      "due_date": "2024-07-31",
+      "description": "The core decision. Three options on the table: full-time bootcamp (~$14k, 6 mo), continued part-time self-study, or staying in mechanical engineering.",
+      "notes": "Needs Lisa's genuine buy-in, not just permission.",
+      "subtasks": [
+        {"subtask_id": "s_005", "title": "Run the real 6-month cash-flow numbers", "status": "not_started", "due_date": "2024-06-15"},
+        {"subtask_id": "s_006", "title": "Sit down with Lisa with a concrete plan", "status": "not_started", "due_date": "2024-06-30"},
+        {"subtask_id": "s_007", "title": "Answer honestly: toward software or away from boredom?", "status": "not_started", "due_date": "2024-07-15"}
+      ]
+    },
+    {
+      "task_id": "t_003",
+      "title": "Research bootcamp options",
+      "status": "in_progress",
+      "due_date": "2024-07-10",
+      "description": "Compare Codesmith Detroit (upfront $14k) vs. the Lambda-style ISA (deferred income share). Look at outcomes data, not just marketing.",
+      "notes": "",
+      "subtasks": [
+        {"subtask_id": "s_008", "title": "Request Codesmith Detroit outcomes report", "status": "done", "due_date": "2024-05-20"},
+        {"subtask_id": "s_009", "title": "Read the ISA fine print (income %, cap, term)", "status": "not_started", "due_date": "2024-05-30"},
+        {"subtask_id": "s_010", "title": "Talk to two recent grads from each program", "status": "not_started", "due_date": "2024-06-20"}
+      ]
+    },
+    {
+      "task_id": "t_004",
+      "title": "Network into the local tech scene",
+      "status": "not_started",
+      "due_date": "2024-08-30",
+      "description": "Build real contacts so a job search isn't cold. Detroit has a small but real scene.",
+      "notes": "Raj is one data point; need more.",
+      "subtasks": [
+        {"subtask_id": "s_011", "title": "Attend a Detroit Python or JS meetup", "status": "not_started", "due_date": "2024-06-25"},
+        {"subtask_id": "s_012", "title": "Coffee with Raj to map out his first-year path", "status": "in_progress", "due_date": "2024-06-10"},
+        {"subtask_id": "s_013", "title": "Update LinkedIn to signal the transition", "status": "not_started", "due_date": "2024-07-05"}
+      ]
+    },
+    {
+      "task_id": "t_005",
+      "title": "Keep current job healthy",
+      "status": "in_progress",
+      "due_date": "2024-09-01",
+      "description": "Don't torch the automotive job while figuring this out — it's the family's stability and a fallback. Dave hinted at a lead-engineer path.",
+      "notes": "Haven't told Dave about the coding.",
+      "subtasks": [
+        {"subtask_id": "s_014", "title": "Finish the rear-suspension hub design review", "status": "in_progress", "due_date": "2024-06-14"},
+        {"subtask_id": "s_015", "title": "Prep talking points for the lead-engineer conversation", "status": "not_started", "due_date": "2024-07-30"},
+        {"subtask_id": "s_016", "title": "Submit Q2 design documentation", "status": "overdue", "due_date": "2024-05-31"}
+      ]
+    },
+    {
+      "task_id": "t_006",
+      "title": "Strengthen coding fundamentals",
+      "status": "in_progress",
+      "due_date": "2024-10-01",
+      "description": "Self-study track. Python is solid; shoring up JS, data structures, and front-end.",
+      "notes": "~6 scattered study hours/week, mostly after 10pm.",
+      "subtasks": [
+        {"subtask_id": "s_017", "title": "Finish freeCodeCamp JS algorithms section", "status": "in_progress", "due_date": "2024-06-30"},
+        {"subtask_id": "s_018", "title": "Work through 50 data-structure problems", "status": "not_started", "due_date": "2024-08-31"},
+        {"subtask_id": "s_019", "title": "Build comfort with React hooks", "status": "in_progress", "due_date": "2024-07-31"}
+      ]
+    },
+    {
+      "task_id": "t_007",
+      "title": "Get the household finances decision-ready",
+      "status": "not_started",
+      "due_date": "2024-06-30",
+      "description": "Know the real numbers cold before making any move. Savings ~$42k, mortgage $1,750/mo, daycare ~$1,240/mo.",
+      "notes": "",
+      "subtasks": [
+        {"subtask_id": "s_020", "title": "Build a 6-month bare-bones survival budget", "status": "not_started", "due_date": "2024-06-15"},
+        {"subtask_id": "s_021", "title": "Confirm the emergency-fund floor with Lisa", "status": "not_started", "due_date": "2024-06-20"},
+        {"subtask_id": "s_022", "title": "Price out COBRA / health insurance if I leave the job", "status": "not_started", "due_date": "2024-06-25"}
+      ]
+    },
+    {
+      "task_id": "t_008",
+      "title": "Home and car maintenance",
+      "status": "in_progress",
+      "due_date": "2024-07-01",
+      "description": "Routine household upkeep.",
+      "notes": "",
+      "subtasks": [
+        {"subtask_id": "s_023", "title": "Replace furnace filter (MX-2200)", "status": "done", "due_date": "2024-05-10"},
+        {"subtask_id": "s_024", "title": "CR-V oil change (~78k mi)", "status": "overdue", "due_date": "2024-05-15"},
+        {"subtask_id": "s_025", "title": "Fix or replace the lawn mower", "status": "not_started", "due_date": "2024-06-01"},
+        {"subtask_id": "s_026", "title": "Clean gutters before spring rains", "status": "overdue", "due_date": "2024-04-20"}
+      ]
+    },
+    {
+      "task_id": "t_009",
+      "title": "Family commitments",
+      "status": "in_progress",
+      "due_date": "2024-06-21",
+      "description": "Don't let the career spiral crowd out the people it's supposedly for.",
+      "notes": "",
+      "subtasks": [
+        {"subtask_id": "s_027", "title": "Book anniversary dinner (June 21)", "status": "not_started", "due_date": "2024-06-14"},
+        {"subtask_id": "s_028", "title": "Sign Ethan up for toddler swim", "status": "done", "due_date": "2024-03-25"},
+        {"subtask_id": "s_029", "title": "Mom's birthday gift (May 22)", "status": "overdue", "due_date": "2024-05-20"},
+        {"subtask_id": "s_030", "title": "Ethan's 3-year checkup follow-up", "status": "done", "due_date": "2024-04-25"}
+      ]
+    },
+    {
+      "task_id": "t_010",
+      "title": "Pressure-test the 'I'd hate it as a job' fear",
+      "status": "not_started",
+      "due_date": "2024-08-01",
+      "description": "Find low-cost ways to experience software work as work, not hobby, before betting the family on it.",
+      "notes": "The 1am fear: loving the hobby but hating the job.",
+      "subtasks": [
+        {"subtask_id": "s_031", "title": "Contribute to an open-source issue (real review/PR cycle)", "status": "not_started", "due_date": "2024-07-15"},
+        {"subtask_id": "s_032", "title": "Shadow Raj or another dev for a day", "status": "not_started", "due_date": "2024-07-20"},
+        {"subtask_id": "s_033", "title": "Take on a small paid freelance task", "status": "not_started", "due_date": "2024-07-31"}
+      ]
+    }
+  ]
+}
